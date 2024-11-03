@@ -1,0 +1,28 @@
+{
+    "name": "potter/enumerable",
+    "description": "PHP Enumerable Interface",
+    "type": "library",
+    "require": {
+        "php": ">=8.3",
+        "illuminate/collections": "^11.30",
+        "potter/arrayable": "dev-main",
+        "potter/countable": "dev-main",
+        "potter/iterator-aggregate": "dev-main",
+        "potter/jsonable": "dev-main",
+        "potter/json-serializable": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Enumerable\\": "src/Potter/Enumerable/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
