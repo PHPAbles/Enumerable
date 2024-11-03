@@ -1,20 +1,20 @@
 {
-    "name": "potter/enumerable",
+    "name": "php-ables/enumerable",
     "description": "PHP Enumerable Interface",
     "type": "library",
     "require": {
         "php": ">=8.3",
         "illuminate/collections": "^11.30",
-        "potter/arrayable": "dev-main",
-        "potter/countable": "dev-main",
-        "potter/iterator-aggregate": "dev-main",
-        "potter/jsonable": "dev-main",
-        "potter/json-serializable": "dev-main"
+        "php-ables/arrayable": "dev-main",
+        "php-ables/countable": "dev-main",
+        "php-ables/jsonable": "dev-main",
+        "php-ables/json-serializable": "dev-main",
+        "potter/iterator-aggregate": "dev-main"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Potter\\Enumerable\\": "src/Potter/Enumerable/"
+            "PHPAbles\\Enumerable\\": "src/PHPAbles/Enumerable/"
         }
     },
     "authors": [
