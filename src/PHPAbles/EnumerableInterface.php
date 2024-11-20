@@ -4,11 +4,8 @@ declare(strict_types=1);
 
 namespace PHPAbles;
 
-use Illuminate\Support\Enumerable,
-    Potter\Iterator\Aggregate\IteratorAggregateInterface;
-use PHPAbles\{ArrayableInterface, CountableInterface};
+use Illuminate\Support\Enumerable, Potter\Iterator\Aggregate\IteratorAggregateInterface;
 use PHPAbles\Json\{JsonableInterface, JsonSerializableInterface};
-
 
 interface EnumerableInterface extends Enumerable, ArrayableInterface, 
                                       CountableInterface, IteratorAggregateInterface, 
