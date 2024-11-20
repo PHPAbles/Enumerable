@@ -1,2 +1,2 @@
-# Enumerable
+# phpables/enumerable
 PHP Enumerable Interface
